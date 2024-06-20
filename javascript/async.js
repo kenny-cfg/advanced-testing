@@ -5,3 +5,5 @@ const waitSeconds = (numberOfSeconds) => {
     }, numberOfSeconds * 1000)
   })
 }
+
+module.exports = waitSeconds
