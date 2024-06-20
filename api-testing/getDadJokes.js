@@ -5,7 +5,8 @@ const getDadJokes = async () => {
     }
   })
   const json = await response.json()
-  console.log(json)
+  const joke = json.joke
+  return joke
   /* Original Promise version
   return fetch('https://icanhazdadjoke.com', {
     headers: {
